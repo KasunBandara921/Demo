@@ -1,9 +1,15 @@
 
 import './App.css'
 
-function Welcomemsg({name}) {
-  const apiok = "Mov";
-  return <h1>Welcome to React {name} </h1>
+function Welcomemsg() {
+  const [count, setCount] = useState(0);
+  return <div>
+    <h1>Welcome to React </h1>
+    <button onClick={()=>setCount(count +1)} >Add an apple</button>
+
+  </div>
+  
+
 }
 
 function App() {
@@ -11,8 +17,9 @@ function App() {
 
   return (
     <>
-    <div> <Welcomemsg name="John"/> </div>
-    <div> <Welcomemsg/> </div>
+    <div> 
+      <button >Watch Now</button> </div>
+    
     </>
    
    
