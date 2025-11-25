@@ -18,7 +18,7 @@ function App() {
   return (
     <>
     <div> 
-      <button >Watch Now</button> </div>
+      <button className='primary-btn' >Watch Now</button> </div>
     
     </>
    
